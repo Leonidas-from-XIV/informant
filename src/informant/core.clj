@@ -1,6 +1,6 @@
 (ns informant.core)
 
-(defn foo
-  "I don't do a whole lot."
+(defn inform
+  "Returns the doc"
   [x]
-  (println x "Hello, World!"))
+  {})
