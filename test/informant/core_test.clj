@@ -2,5 +2,12 @@
   (:require [midje.sweet :refer :all]
             [informant.core :refer :all]))
 
-(fact "`inform` returns the documentation of clojure.core functions"
-      (:doc (inform clojure.core/mod)) => "Foobar")
+(defn- test-doc
+  "Docstring"
+  [])
+
+(fact "`inform` returns the documentation of functions"
+      (:doc (inform 'test-doc)) => "Docstring"
+      (:arglists (inform 'test-doc)) => '([])
+      (:name (inform 'test-doc)) => test-doc
+      (:private (inform 'test-doc)) => true)
