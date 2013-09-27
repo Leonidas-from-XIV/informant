@@ -19,6 +19,9 @@ basically a programmatically usable `doc`.
 ;    :file "clojure/core.clj"}
 ```
 
+Yes, this is very simple, but I couldn't find a library that does this, so
+there is one now.
+
 ## License
 
 Copyright © 2013 Marek Kubica
