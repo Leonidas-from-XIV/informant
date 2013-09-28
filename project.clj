@@ -1,4 +1,4 @@
-(defproject informant "0.1.0"
+(defproject informant "0.1.1"
   :description "Introspect documentation information"
   :url "https://github.com/Leonidas-from-XIV/informant"
   :license {:name "Eclipse Public License"
